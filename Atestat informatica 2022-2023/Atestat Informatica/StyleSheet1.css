@@ -1,0 +1,36 @@
+﻿* {
+    font-family: Tahoma;
+}
+
+body {
+    background-image: url('kk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.mainbody {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom:20px;
+    background-color: RGB(243, 244, 240);
+    height: auto;
+    padding: 20px;
+    overflow:hidden;
+}
+
+
+
+.Art_btn {
+    border-bottom: 2px solid black !important;
+}
+
+.prev_img {
+    max-height: 450px;
+    max-width: 500px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom:10px;
+}

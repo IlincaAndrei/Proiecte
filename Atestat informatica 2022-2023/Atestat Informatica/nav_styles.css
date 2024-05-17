@@ -1,0 +1,101 @@
+
+#opinion_form {
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+#p_bar {
+    background-color: #546bab;
+    height: 5px;
+    width: 0px;
+    border-radius: 3px;
+}
+
+.Art_btn {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    min-width: 80px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+
+nav {
+    background-color: #273154;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0;
+    height: 45px;
+}
+
+
+#ld_box {
+    display: inline-flex;
+    float: right;
+    margin-right: 50px;
+    height: 50%;
+    align-items: center;
+    top: 50%;
+}
+
+#l_btn, #d_btn {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma;
+    border: none;
+}
+
+    #l_btn:hover, #d_btn:hover {
+        color: #FA7A35 !important;
+    }
+
+ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    ul li {
+        margin-left: 10px;
+        line-height: 45px;
+    }
+
+nav li, nav a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    position: relative;
+    padding: 0px 3px;
+}
+
+.active {
+    border-bottom: 3px solid #FFDAB9;
+    bottom: 3px;
+    margin-bottom: 0;
+}
+
+nav ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: #676E95;
+    z-index: -1;
+    top: 100%;
+    left: 0;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover::before {
+    height: 100%;
+    top: 0;
+    color: RGB(0, 155, 119);
+}

@@ -1,0 +1,105 @@
+﻿
+form{
+    width: 100%;
+    
+}
+
+.ip1 {
+    width: 70%;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 3px;
+    background-color: transparent;
+    border-width: 2px;
+}
+
+.ip2 {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    background-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+
+.txt {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: black;
+}
+
+.mainbody{
+    font-family:Tahoma;
+}
+
+.btn-del, #nH, #sub {
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    font-size: 17px !important;
+    background-color: #303348;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    vertical-align: middle;
+    color: white;
+    margin-bottom:10px;
+}
+
+
+input[type="file"] {
+    display:none;
+}
+
+.label_file {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    background-color: #303348;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.head {
+    height: 40px;
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 10px;
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 3px;
+    background-color: transparent;
+}
+.head:focus ,.ip1:focus{
+outline: none;
+border: none;
+border-bottom: 2px solid black;
+}
+.lbl {
+    font-size: 20px;
+}
+
+#prv {
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border-width:2px;
+    border-color:black;
+    font-size:20px;
+}
+
+

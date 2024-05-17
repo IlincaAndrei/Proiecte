@@ -1,0 +1,106 @@
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    padding: 0;
+    position: relative;
+
+
+}
+
+label{
+    font-family:Tahoma;
+    font-size:15px;
+}
+
+#usinp, #psinp {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 3px;
+    background-color: transparent;
+}
+
+    #usinp:focus, #psinp:focus {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+
+form {
+    position: relative;
+    height: 100%;
+    width:100%;
+    margin-top: 70px;
+}
+
+
+#subinp {
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    font-size: 17px !important;
+    background-color: #303348;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    vertical-align: middle;
+    color: white;
+    
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 5px solid #303348S;
+    position: absolute;
+    top: 0;
+    margin: 0;
+
+}
+
+#h1, #h2 {
+    display: inline-block;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    font-style: Tahoma;
+ 
+}
+#h1 {
+    background-color: #303348;
+
+}
+
+#h2 {
+    color: #303348;
+
+}
+
+    #h2:hover {
+        background-color: #202331;
+        color: white;
+    }
+
+
+#p {
+    font-family: Tahoma;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size:10px;
+  
+}
